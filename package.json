@@ -1,0 +1,30 @@
+{
+  "name": "reqnjs",
+  "version": "1.0.3",
+  "description": "ReqNJS: Command Line Interface for making HTTP requests",
+  "main": "index.js",
+  "bin": {
+    "reqnjs": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": [
+    "http",
+    "requests",
+    "cli",
+    "nodejs",
+    "commander",
+    "get",
+    "post",
+    "put",
+    "delete",
+    "patch",
+    "head",
+    "connect"
+  ],
+  "dependencies": {
+    "commander": "^8.3.0"
+  },
+  "license": "MIT"
+}
